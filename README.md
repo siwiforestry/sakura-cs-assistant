@@ -44,6 +44,7 @@ graph TD
     B --> C[3. LOCAL INFERENCE<br>Llama 3.1 8B via Ollama Mac M2]:::green
     C --> D[4. HUMAN-IN-THE-LOOP<br>CS Agent Review & Edit Draft]:::yellow
     D --> E[5. FINAL ACTION EXECUTION<br>Kirim Respons & Penugasan ke PMS]:::purple
+```
 
 ---
 
