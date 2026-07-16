@@ -22,11 +22,11 @@ Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah *Art
 
 ## Fitur Utama
 - **Triage Otomatis:** Mengklasifikasikan tingkat urgensi keluhan (High, Medium, Low) berdasarkan isi keluhan dan kategori keanggotaan tamu (VIP, Gold, Standard) secara instan.
-- **Eskalasi Divisi Tepat Sasaran:** Merekomendasikan divisi internal hotel yang wajib menangani masalah (misalnya: *Front Office, Housekeeping, Maintenance, IT Support, Finance*)[cite: 2].
-- **Draf Balasan Empatis Berstandar *Omotenashi*:** Menghasilkan draf tanggapan otomatis dalam Bahasa Indonesia yang ramah, taktis, dan aman[cite: 2].
-- **Security Guardrails Terintegrasi:** Sistem diproteksi agar **tidak memberikan janji pengembalian uang (*refund*)** secara otomatis guna mencegah kerugian finansial hotel[cite: 2].
-- **100% Privasi Terjamin (Local Inference):** Menggunakan model LLM yang berjalan lokal pada perangkat tanpa mengirim data keluhan tamu ke server pihak ketiga (cloud)[cite: 2].
-- **Human-in-the-Loop:** Menyajikan antarmuka di mana staf CS manusia dapat meninjau, menyunting, dan menyetujui respons sebelum dikirimkan ke tamu[cite: 2].
+- **Eskalasi Divisi Tepat Sasaran:** Merekomendasikan divisi internal hotel yang wajib menangani masalah (misalnya: *Front Office, Housekeeping, Maintenance, IT Support, Finance*).
+- **Draf Balasan Empatis Berstandar *Omotenashi*:** Menghasilkan draf tanggapan otomatis dalam Bahasa Indonesia yang ramah, taktis, dan aman.
+- **Security Guardrails Terintegrasi:** Sistem diproteksi agar **tidak memberikan janji pengembalian uang (*refund*)** secara otomatis guna mencegah kerugian finansial hotel.
+- **100% Privasi Terjamin (Local Inference):** Menggunakan model LLM yang berjalan lokal pada perangkat tanpa mengirim data keluhan tamu ke server pihak ketiga (cloud).
+- **Human-in-the-Loop:** Menyajikan antarmuka di mana staf CS manusia dapat meninjau, menyunting, dan menyetujui respons sebelum dikirimkan ke tamu.
 
 ---
 
@@ -64,12 +64,12 @@ Pastikan Anda telah memasang **Python** dan **Ollama** di perangkat Anda sebelum
 Jalankan perintah ini di Terminal Anda untuk mengunduh model Llama 3.1:
 ```bash
 ollama run llama3.1
-
+```
 ### 2. Klon Repositori ini
 ```bash
 git clone [https://github.com/siwiforestry/sakura-cs-assistant.git](https://github.com/siwiforestry/sakura-cs-assistant.git)
 cd sakura-cs-assistant
-
+```
 ### 3. Buat dan Aktifkan Virtual Environment
 ```bash
 # Membuat Virtual Environment
@@ -77,15 +77,15 @@ python3 -m venv venv
 
 # Mengaktifkan di macOS
 source venv/bin/activate
-
+```
 ### 4. Pasang Dependensi
 ```bash
 pip install streamlit ollama matplotlib
-
+```
 ### 5. Jalankan Aplikasi
 ```bash
 streamlit run app.py
-
+```
 Aplikasi web otomatis akan terbuka di peramban (browser) Anda pada alamat `http://localhost:8501`
 
 ## Struktur Direktori
